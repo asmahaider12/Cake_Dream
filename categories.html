@@ -1,0 +1,2827 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="css/mysheet.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>My Cake Website</title>
+    <style>
+      #message {
+            display: none;
+            margin-top: 0px;
+            padding: 0px;
+            background-color: #03f8f8;
+            color: rgb(10, 10, 10);
+            border-radius: 5px;
+            position:absolute;
+        }
+      .addToCartButton{
+        background-color: rgb(91, 193, 233);
+        border-color: whitesmoke;
+      
+      }  
+      .addToCartButton:hover{
+        background-color: rgb(91, 193, 233);
+        border-color: whitesmoke;
+      }  
+    .addToCartButton:clickevent{
+        background-color: rgb(91, 193, 233);
+        border-color: whitesmoke;
+      }  
+    </style>
+</head>
+<body>
+    <!--HEADER SECTION-->
+    <div class="container-fluid head-bg ">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-sm-6 col-xs-6 col-lg-6 col-md-6 text-left" >
+                  <span class="glyphicon glyphicon-earphone">1234-567-890 </span> 
+                  
+                </div>
+                <div class="col-sm-6 col-xs-6 col-lg-6 col-md-6 text-right" >
+                    <span class="glyphicon glyphicon-shopping-cart"> 8:30 AM – 11:30 PM</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--END HEADER SECTION-->
+    <!-----------------------NAVIGATION BAR--------------------------->
+    <div class="container-fluid containter-padding">
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header ">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><p>C<sub>A</sub>K<sup>E</sup>   D<sub>R</sub>E<sup>A</sup>M</p></a>
+                  </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav pull-right">
+                        <li ><a href="index.html">Home </a></li>
+                        <li class="dropdown active">
+                          <a class="dropdown-toggle " data-toggle="dropdown" href="#">Categories
+                              <span class="caret"></span>
+                          </a>
+                          <ul class="dropdown-menu">
+                              <li data-bs-spy="scroll"><a href="#cheese">Cheese Cake</a></li>
+                              <li data-bs-spy="scroll"><a href="#cream">Cream Cake</a></li>
+                              <li data-bs-spy="scroll"><a href="#chocolate">Chocolate Cake</a></li>
+                              <li data-bs-spy="scroll"><a href="#almond">Almond Cake</a></li>
+                              <li data-bs-spy="scroll"><a href="#special">Special Cake</a></li>
+                              <li data-bs-spy="scroll"><a href="#mini">Mini Cake</a></li>
+                              <li data-bs-spy="scroll"><a href="#ultra">Ultra Pro Max Cake</a></li>
+                              <li data-bs-spy="scroll"><a href="#cookies">cookies Cake</a></li>
+                          </ul>
+                      </li>
+                        <li ><a href="aboutus.html">About Us</a></li>
+                        <li ><a href="contactus.html">Contact Us</a></li>
+                        <li><a href="signup.html">Sign Up</a></li>
+                    </ul> 
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--END NAVIGATION BAR-->
+    <!-----------------------------MAIN SECTION------------------------------->
+    <div class="container-fluid ">
+        <div class="row section-heading">
+            <img src="imgs/cate.jpg" class="img-responsive">
+        </div>
+      </div>
+    <!--END MAIN SECTION-->
+  <!--------------------------------SECTION 1-------------------------------->
+  <div class="jumbotron">
+  <div class="container-fluid">
+    <div class="container   section-padding text-center">
+        <p>Every delicacy by 'Layers' holds a charm that enchants with every bite</p>
+        <h1>Like a Fantasy that feels Unreal</h1>
+    </div>
+  </div>
+</div>
+  <!--END SECTION 1-->
+   <!-----------------------------CHEESE CAKE------------------------------->
+   <br><br><br><br><br><br><br><br><br>
+   <div class="container-fluid category-head text-center ">
+     <h1 class="cat-padding" id="cheese">  Cheese Cake</h1>
+    </div>
+  <div class="container text-center">
+      <div class="row cate-padding">
+          <div class="col-sm-4 col-xs-4 ">
+                <img src="imgs/cheese.jpg" class="img-thumbnail img-rounded  img-responsive">
+                   </div>
+          <div class="col-sm-8 col-xs-8 ">
+            <table class="table table-bordered table-striped table-hover">
+              <tbody>
+              <tr>
+                <th>Sr no.</th>
+                <th>Cheese Cake Name</th>
+                <th>Price</th>
+                <th>Order Now</th>
+              </tr>
+              <tr>
+                <td>1.</td>
+                <td >
+                <a   type="text"  data-bs-toggle="modal" data-bs-target="#myModal">
+                  Jiggly Japanese Cheesecake
+              </a>
+            
+                <!-- The Modal -->
+                <div class="modal" id="myModal">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title text-center">Jiggly Japanese Cheesecake</h4>
+                      
+                      </div>
+                
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <img src="imgs/1c.jpg"width="100%" height="50%">
+                        <p> Jiggly Japanese cheesecakes are light and airy. With a combination of whipped egg whites and cream cheese, this dessert takes on the perfect balance of smoothness and fluffiness.</p>
+                        <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                      </div>
+                
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        
+                      </div>
+                
+                    </div>
+                  </div>
+                </div>
+              </td>
+                <td>450</td>
+                <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+                  <div id="message">Item added to cart!</div>
+                  
+
+                </td>
+              </tr>
+              <tr>
+                <td>2.</td>
+                <td><a  type="text"  data-bs-toggle="modal" data-bs-target="#myModalrasp">
+                  Raspberry Cheesecake
+              </a>
+            
+                <!-- The Modal -->
+                <div class="modal" id="myModalrasp">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h3 class="modal-title text-center">Raspberry Cheesecake</h3>
+                        
+                      </div>
+                
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <img src="imgs/2c.jpg" width="100%" height="50%">
+                        <p>  Raspberry cheesecake is swirled with fresh raspberry flavor throughout. It’s baked on a classic graham cracker crust and, of course, is made without a water bath!</p>
+                        <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                      </div>
+                
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                      </div>
+                
+                    </div>
+                  </div>
+                </div></td>
+                <td>550</td>
+                <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+                  <div id="message">Item added to cart!</div>
+                </td>
+              </tr>
+              <tr>
+                <td>3.</td>
+                <td><a   type="text"  data-bs-toggle="modal" data-bs-target="#myModalbak">
+                  Baklava Cheesecake
+              </a>
+            
+                <!-- The Modal -->
+                <div class="modal" id="myModalbak">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h3 class="modal-title text-center">Baklava Cheesecake</h3>
+                        
+                      </div>
+                
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <img src="imgs/3c.jpg" width="90%" height="50%">
+                        <p>  Baklava Cheesecake is a, flaky pastry made with layers of phyllo dough, filled with chopped nuts and soaked in syrup or honey. Baklava is a popular and traditional dessert in in the Middle East and parts of the Mediterranean.</p>
+                        <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                      </div>
+                
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                      </div>
+                
+                    </div>
+                  </div>
+                </div></td>
+                <td>600</td>
+                <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+                  <div id="message">Item added to cart!</div>
+                </td>
+              </tr>
+              <tr>
+                <td>4.</td>
+                <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalno">
+                  No-Bake Cheesecake
+              </a>
+            
+                <!-- The Modal -->
+                <div class="modal" id="myModalno">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h3 class="modal-title text-center">No-Bake Cheesecake</h3>
+                        
+                      </div>
+                
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <img src="imgs/4c.jpg" width="100%" height="50%">
+                        <p>  No-Bake Cheesecake is exactly what the name suggests. The graham cracker crust and cheesecake filling never see the inside of the oven, so it’s a fantastic dessert when the weather’s warm or when your oven is crowded. Or when you don’t feel like baking. 😉</p>
+                        <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                      </div>
+                
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                      </div>
+                
+                    </div>
+                  </div>
+                </div></td>
+                <td>650</td>
+                <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+                  <div id="message">Item added to cart!</div>
+                </td>
+              </tr>
+              <tr>
+                <td>5.</td>
+                <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalblu">
+                  Blueberry Cheesecake
+              </a>
+            
+                <!-- The Modal -->
+                <div class="modal" id="myModalblu">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h3 class="modal-title text-center">Blueberry Cheesecake</h3>
+                        
+                      </div>
+                
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <img src="imgs/5c.jpg" width="100%" height="50%">
+                        <p>   Blueberry Cheesecake is a dream come true, with a buttery graham cracker crust, light cheesecake filling generously dotted with sweet blueberries, and a luscious crown of fresh blueberry sauce. It’s the perfect summer dessert!
+
+                        </p>
+                        <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                      </div>
+                
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                      </div>
+                
+                    </div>
+                  </div>
+                </div></td>
+                <td>700</td>
+                <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+                  <div id="message">Item added to cart!</div>
+                </td>
+              </tr>
+              <tr>
+                <td>6.</td>
+                <td><a  type="text"  data-bs-toggle="modal" data-bs-target="#myModalnw">
+                  New-York Cheesecake
+              </a>
+            
+                <!-- The Modal -->
+                <div class="modal" id="myModalnw">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h3 class="modal-title text-center">New-York Cheesecake</h3>
+                        
+                      </div>
+                
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <img src="imgs/6c.jpg" width="100%" height="50%">
+                        <p> New York Cheesecake is a dense and creamy dessert made with cream cheese, eggs, and sugar on a graham cracker crust, often served chilled. Its rich, tangy flavor makes it a beloved classic in American dessert culture.
+                        </p>
+                        <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                      </div>
+                
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                      </div>
+                
+                    </div>
+                  </div>
+                </div></td>
+                <td>750</td>
+                <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+                  <div id="message">Item added to cart!</div>
+                </td>
+              </tr>
+              <tr>
+                <td>7.</td>
+                <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalchi">
+                  Chicago Cheesecake
+              </a>
+            
+                <!-- The Modal -->
+                <div class="modal" id="myModalchi">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h3 class="modal-title text-center">Chicago Cheesecake</h3>
+                        
+                      </div>
+                
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <img src="imgs/8c.jpg" width="100%" height="50%">
+                        <p>Chicago Cheesecake, known for its dense, creamy texture, blends the richness of cream cheese with a buttery graham cracker crust, delivering a decadent dessert that's a true indulgence.
+                        </p>
+                        <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                      </div>
+                
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                      </div>
+                
+                    </div>
+                  </div>
+                </div></td>
+                <td>800</td>
+                <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+                  <div id="message">Item added to cart!</div>
+                </td>
+              </tr>
+              <tr>
+                <td>8.</td>
+                <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalsav">
+                  Savoury Cheesecake
+              </a>
+            
+                <!-- The Modal -->
+                <div class="modal" id="myModalsav">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h3 class="modal-title text-center">Savoury Cheesecake</h3>
+                        
+                      </div>
+                
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <img src="imgs/7c.jpg" width="100%" height="50%">
+                        <p> A Savoury Cheesecake is a delightful twist on the classic dessert, featuring savory ingredients like herbs, cheeses, and sometimes even vegetables, offering a savory, creamy indulgence in every bite.
+                        </p>
+                        <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                      </div>
+                
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                      </div>
+                
+                    </div>
+                  </div>
+                </div></td>
+                <td>850</td>
+                <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+                  <div id="message">Item added to cart!</div>
+                </td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+  </div>
+  <!--END CHEESE CAKE-->
+   <!-----------------------------CREAM CAKE------------------------------->
+   <br><br><br><br><br><br><br><br><br>
+   <div class="container-fluid category-head text-center">
+    <h1 id="cream">  Cream Cake</h1>
+   </div>
+ <div class="container text-center">
+     <div class="row cate-padding">
+         <div class="col-sm-8 col-xs-8 ">
+           <table class="table table-bordered table-striped table-hover">
+             <tbody>
+             <tr>
+               <th>Sr no.</th>
+               <th>Cream Cake Name</th>
+               <th>Price</th>
+               <th>Order Now</th>
+             </tr>
+             <tr>
+               <td>1.</td>
+               <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalblk">
+                Black Cream Sprinkled Cream Cake
+            </a>
+          
+              <!-- The Modal -->
+              <div class="modal" id="myModalblk">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+              
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h3 class="modal-title text-center">Black Cream Sprinkled Cream Cake</h3>
+                      
+                    </div>
+              
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                      <img src="imgs/cr1.jpg" width="100%" height="50%">
+                      <p> A Black Cream Sprinkled Cream Cake is a decadent dessert featuring layers of rich chocolate sponge filled with creamy black frosting, topped with a generous sprinkle of cream and chocolate shavings for a delightful finish.
+                      </p>
+                      <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                    </div>
+              
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+              
+                  </div>
+                </div>
+              </div></td>
+               <td>350</td>
+               <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+                <div id="message">Item added to cart!</div>
+               </td>
+             </tr>
+             <tr>
+               <td>2.</td>
+               <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalrus">
+                Rustic Floral Cream Cake
+            </a>
+          
+              <!-- The Modal -->
+              <div class="modal" id="myModalrus">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+              
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h3 class="modal-title text-center">Rustic Floral Cream Cake</h3>
+                      
+                    </div>
+              
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                      <img src="imgs/cr5.jpg" width="100%" height="50%">
+                      <p>Rustic Floral Cream Cake is a charming blend of rustic beauty and delicate floral accents, topped with creamy goodness. Perfect for those who adore both elegance and simplicity in their desserts.
+                      </p>
+                      <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                    </div>
+              
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+              
+                  </div>
+                </div>
+              </div></td>
+               <td>400</td>
+               <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+                <div id="message">Item added to cart!</div>
+               </td>
+             </tr>
+             <tr>
+               <td>3.</td>
+               <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalpur">
+                Purple Rose Swirl Cream Cake
+            </a>
+          
+              <!-- The Modal -->
+              <div class="modal" id="myModalpur">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+              
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h3 class="modal-title text-center">Purple Rose Swirl Cream Cake</h3>
+                      
+                    </div>
+              
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                      <img src="imgs/cr6.jpg" width="100%" height="50%">
+                      <p> The Purple Rose Swirl Cream Cake features layers of moist sponge with a delicate purple buttercream swirl, adorned with edible rose decorations for a floral touch and decadent flavor experience.
+                      </p>
+                      <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                    </div>
+              
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+              
+                  </div>
+                </div>
+              </div></td>
+               <td>500</td>
+               <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+                <div id="message">Item added to cart!</div>
+               </td>
+             </tr>
+             <tr>
+               <td>4.</td>
+               <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalgal">
+                Galaxy Cream Cake
+            </a>
+          
+              <!-- The Modal -->
+              <div class="modal" id="myModalgal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+              
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h3 class="modal-title text-center">Galaxy Cream Cake</h3>
+                      
+                    </div>
+              
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                      <img src="imgs/cr2.jpg" width="100%" height="50%">
+                      <p>Galaxy Cream Cake is a celestial delight blending rich chocolate layers with creamy galaxy-inspired swirls, topped with edible glitter for a cosmic finish.
+                      </p>
+                      <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                    </div>
+              
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+              
+                  </div>
+                </div>
+              </div></td>
+               <td>750</td>
+               <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+                <div id="message">Item added to cart!</div>
+               </td>
+             </tr>
+             <tr>
+               <td>5.</td>
+               <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalmid">
+                Midnight Strands Cream Cake
+            </a>
+          
+              <!-- The Modal -->
+              <div class="modal" id="myModalmid">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+              
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h3 class="modal-title text-center">Midnight Strands Cream Cake</h3>
+                      
+                    </div>
+              
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                      <img src="imgs/cr7.jpg" width="100%" height="50%">
+                      <p>Midnight Strands Cream Cake is a decadent delight with layers of moist sponge, rich cream, and a hint of midnight sweetness, perfect for indulgent moments.
+                      </p>
+                      <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                    </div>
+              
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+              
+                  </div>
+                </div>
+              </div></td>
+               <td>650</td>
+               <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+                <div id="message">Item added to cart!</div>
+               </td>
+             </tr>
+             <tr>
+               <td>6.</td>
+               <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalwht">
+                White Cream Sprinkeld Cream Cake
+            </a>
+          
+              <!-- The Modal -->
+              <div class="modal" id="myModalwht">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+              
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h3 class="modal-title text-center">White Cream Sprinkeld Cream Cake</h3>
+                      
+                    </div>
+              
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                      <img src="imgs/cr3.jpg" width="100%" height="50%">
+                      <p> A delightful White Sprinkled Cream Cake adorned with sprinkles, offering a fluffy texture and a sweet, creamy taste that melts in your mouth.
+
+                      </p>
+                      <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                    </div>
+              
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+              
+                  </div>
+                </div>
+              </div></td>
+               <td>750</td>
+               <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+                <div id="message">Item added to cart!</div>
+               </td>
+             </tr>
+             <tr>
+               <td>7.</td>
+               <td><a  type="text"  data-bs-toggle="modal" data-bs-target="#myModalran">
+                Rainbow Cream Cake
+            </a>
+          
+              <!-- The Modal -->
+              <div class="modal" id="myModalran">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+              
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h3 class="modal-title text-center">Rainbow Cream Cake</h3>
+                      
+                    </div>
+              
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                      <img src="imgs/c7.jpg" width="100%" height="50%">
+                      <p> Rainbow Cream Cake is a vibrant dessert featuring layers of colorful sponge cake filled with light, fluffy cream, perfect for celebrations and delighting taste buds with its visual and culinary appeal.
+                      </p>
+                      <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                    </div>
+              
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+              
+                  </div>
+                </div>
+              </div></td>
+               <td>800</td>
+               <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+                <div id="message">Item added to cart!</div>
+               </td>
+             </tr>
+             <tr>
+               <td>8.</td>
+               <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalmar">
+                Marron Cream Cake
+            </a>
+          
+              <!-- The Modal -->
+              <div class="modal" id="myModalmar">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+              
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h3 class="modal-title text-center">Marron Cream Cake</h3>
+                      
+                    </div>
+              
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                      <img src="imgs/cr4.jpg" width="100%" height="50%">
+                      <p>Marron Cream Cake is a decadent dessert featuring layers of light sponge cake filled with creamy chestnut mousse, finished with a delicate marzipan or chocolate topping, offering a rich and nutty flavor experience.
+                      </p>
+                      <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                    </div>
+              
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+              
+                  </div>
+                </div>
+              </div></td>
+               <td>750</td>
+               <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+                <div id="message">Item added to cart!</div>
+               </td>
+             </tr>
+              </tbody>
+           </table>
+         </div>
+           <div class="col-sm-4 col-xs-4 ">
+              <img src="imgs/cream.jpg" class="img-thumbnail img-rounded  img-responsive">
+                 </div>
+         </div>
+       </div>
+ </div>
+ <!--END CREAM CAKE-->
+ <!-----------------------------CHOCOLATE CAKE------------------------------->
+ <br><br><br><br><br><br><br><br><br>
+ <div class="container-fluid category-head text-center">
+  <h1 id="chocolate">  Chocolate Cake</h1>
+ </div>
+<div class="container text-center">
+   <div class="row cate-padding">
+       <div class="col-sm-4 col-xs-4 ">
+          <img src="imgs/chocolate.jpg" class="img-thumbnail img-rounded  img-responsive">
+               </div>
+       <div class="col-sm-8 col-xs-8 ">
+         <table class="table table-bordered table-striped table-hover">
+           <tbody>
+           <tr>
+             <th>Sr no.</th>
+             <th>Chocolate Cake Name</th>
+             <th>Price</th>
+             <th>Order Now</th>
+           </tr>
+           <tr>
+             <td>1.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalmou">
+              Mousse Chocolate Cake
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalmou">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Mousse Chocolate Cake</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/ch5.jpg" width="100%" height="50%">
+                    <p>Mousse Chocolate Cake: A decadent dessert featuring layers of airy chocolate mousse nestled between moist chocolate cake, topped with a smooth ganache for an indulgent finish.
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>650</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+           <tr>
+             <td>2.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalzuc">
+              Zucchini Chocolate Cake
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalzuc">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Zucchini Chocolate Cake</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/ch7.jpg" width="100%" height="50%">
+                    <p>Zucchini Chocolate Cake is a moist, rich dessert combining shredded zucchini with cocoa for a decadent flavor. It's a clever way to incorporate vegetables into a delicious chocolate treat.
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>700</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+           <tr>
+             <td>3.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalbdt">
+              Bundt Chocolate Cake
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalbdt">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Bundt Chocolate Cake</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/ch4.jpg" width="100%" height="50%">
+                    <p>A Bundt Chocolate Cake is a rich, moist dessert made with decadent chocolate batter, baked in a distinctive ring-shaped Bundt pan. Its dense crumb and deep chocolate flavor make it a favorite for any occasion.
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>800</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+           <tr>
+             <td>4.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalger">
+              German Chocolate Cake
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalger">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">German Chocolate Cake</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/ch6.jpg" width="100%" height="50%">
+                    <p>German Chocolate Cake is a rich, moist chocolate cake layered with a coconut-pecan filling and topped with chocolate frosting, known for its decadent flavors and textures.
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>750</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+           <tr>
+             <td>5.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalmiss">
+              Mississippi Mud Chocolate Cake
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalmiss">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Mississippi Mud Chocolate Cake</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/ch8.jpg" width="100%" height="50%">
+                    <p>Mississippi Mud Chocolate Cake is a decadent dessert featuring rich layers of moist chocolate cake, gooey marshmallows, and a luscious chocolate frosting, all combined for a blissful chocolate lover's experience.
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>600</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+           <tr>
+             <td>6.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalstra">
+              Strawberry Chocolate Cake
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalstra">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Strawberry Chocolate Cake</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/ch3.jpg" width="100%" height="50%">
+                    <p> Strawberry Chocolate Cake is A decadent fusion of rich chocolate layers interspersed with luscious strawberry filling, topped with creamy chocolate ganache, delivering a delightful blend of flavors in every bite.
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>800</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+           <tr>
+             <td>7.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalcla">
+              Classic Pound Chocolate Cake
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalcla">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Classic Pound Chocolate Cake</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/ch2.jpg" width="100%" height="50%">
+                    <p>Classic Pound Chocolate Cake is infused with the timeless flavor of cocoa, topped with a luscious buttercream frosting. Perfect for indulging in moments of pure chocolate bliss.
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>750</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+           <tr>
+             <td>8.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalflo">
+              Flourless Chocolate Cake
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalflo">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Flourless Chocolate Cake</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/ch1.jpg" width="100%" height="50%">
+                    <p>Flourless chocolate cake: a decadent dessert made with rich chocolate and eggs, resulting in a dense, fudgy texture that melts in your mouth. It's a perfect treat for chocolate lovers seeking a gluten-free option.
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>600</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+         </tbody>
+         </table>
+       </div>
+     </div>
+</div>
+<!--END CHOCOLATE CAKE-->
+ <!-----------------------------ALMOND CAKE------------------------------->
+ <br><br><br><br><br><br><br><br><br>
+ <div class="container-fluid category-head text-center">
+  <h1 id="almond">  Almond Cake</h1>
+ </div>
+<div class="container text-center">
+   <div class="row cate-padding">
+       <div class="col-sm-8 col-xs-8 ">
+         <table class="table table-bordered table-striped table-hover">
+           <tbody>
+           <tr>
+             <th>Sr no.</th>
+             <th>Almond Cake Name</th>
+             <th>Price</th>
+             <th>Order Now</th>
+           </tr>
+           <tr>
+             <td>1.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModallem">
+              Lemon Almond Cake
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModallem">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center"> Lemon Almond Cake</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/al1.jpg" width="100%" height="50%">
+                    <p> Lemon Almond Cake: A delightful blend of zesty lemon flavor and rich almond essence, perfect for a refreshing and nutty dessert experience.
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>400</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+           <tr>
+             <td>2.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalnor">
+              Norwegian Almond Cake
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalnor">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Norwegian Almond Cake</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/al5.jpg" width="100%" height="50%">
+                    <p>Norwegian Almond Cake is a traditional dessert characterized by its moist almond flavor and often topped with toasted almonds for added texture. It's enjoyed for its rich, buttery taste that complements coffee or tea perfectly.
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>550</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+           <tr>
+             <td>3.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalric">
+              Ricotta Almond Cake
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalric">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Ricotta Almond Cake</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/al4.jpg" width="100%" height="50%">
+                    <p>Ricotta Almond Cake: A moist, tender cake infused with the delicate flavors of ricotta cheese and almond. Perfectly balanced sweetness with a hint of nuttiness.
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>650</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+           <tr>
+             <td>4.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalmost">
+              Moist Almond Cake
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalmost">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Moist Almond Cake</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/al7.jpg" width="100%" height="50%">
+                    <p>Moist Almond Cake: A decadent dessert infused with almond essence, boasting a tender crumb and a rich, nutty flavor, perfect for almond lovers everywhere.
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>700</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+           <tr>
+             <td>5.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalcrn">
+              Crunch Pound Almond Cake
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalcrn">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Crunch Pound Almond Cake</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/al.jpg" width="100%" height="50%">
+                    <p> Crunch Pound Almond Cake is a rich, dense dessert packed with almond flavor and a delightful crunch, perfect for almond lovers seeking a satisfying treat. Its moist texture and nutty essence make it a decadent choice for any occasion.
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>750</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+           <tr>
+             <td>6.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalche">
+              Cherimoya Almond Cake
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalche">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Cherimoya Almond Cake</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/al6.jpg" width="100%" height="50%">
+                    <p> Cherimoya Almond Cake combines the tropical sweetness of cherimoya with the nuttiness of almonds, creating a moist and flavorful dessert with a unique fruity twist. Perfect for those seeking a delightful blend of exotic and familiar flavors in a single bite.
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>850</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+           <tr>
+             <td>7.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalrhu">
+              Rhubarb Coffee Almond Cake
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalrhu">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Rhubarb Coffee Almond Cake</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/al2.jpg" width="100%" height="50%">
+                    <p>Rhubarb Coffee Almond Cake blends the tangy sweetness of rhubarb with the rich nuttiness of almonds, all complemented by a subtle hint of coffee. It's a delightful fusion of flavors in every bite.
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>850</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+           <tr>
+             <td>8.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalglaz">
+              Glazed Bundt Almond Cake
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalglaz">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Glazed Bundt Almond Cake</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/al3.jpg" width="100%" height="50%">
+                    <p>A decadent almond cake baked in a distinctive Bundt shape, glazed to perfection, offering a rich, nutty flavor in every bite. Perfect for any occasion, this cake blends moist texture with a delightful almond sweetness.
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>900</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+            </tbody>
+         </table>
+       </div>
+         <div class="col-sm-4 col-xs-4 ">
+            <img src="imgs/almond.jpg" class="img-thumbnail img-rounded  img-responsive">
+             </div>
+       </div>
+     </div>
+</div>
+<!--END ALMOND CAKE-->
+<!-----------------------------SPSECIAL CAKE------------------------------->
+<br><br><br><br><br><br><br><br><br>
+<div class="container-fluid category-head text-center">
+  <h1 id="special">  SPECIAL Cake</h1>
+ </div>
+<div class="container text-center">
+   <div class="row cate-padding">
+       <div class="col-sm-4 col-xs-4 ">
+            <img src="imgs/special.jpg" class="img-thumbnail img-rounded  img-responsive">
+               </div>
+       <div class="col-sm-8 col-xs-8 ">
+         <table class="table table-bordered table-striped table-hover">
+           <tbody>
+           <tr>
+             <th>Sr no.</th>
+             <th>Special Cake Name</th>
+             <th>Price</th>
+             <th>Order Now</th>
+           </tr>
+           <tr>
+             <td>1.</td>
+             <td><a  type="text"  data-bs-toggle="modal" data-bs-target="#myModalvan">
+              Vanila Birthday Cake
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalvan">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Vanila Birthday Cake</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/sp6.jpg" width="100%" height="50%">
+                    <p>  Vanilla Birthday Cake features layers of moist vanilla sponge filled with creamy vanilla frosting, topped with sprinkles or decorations for a festive touch. It's a timeless favorite, loved for its simplicity and delightful flavor.
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>900</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+           <tr>
+             <td>2.</td>
+             <td><a  type="text"  data-bs-toggle="modal" data-bs-target="#myModalyer">
+              Year Together Calender Anniversary Cake
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalryer">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Year Together Calender Anniversary Cake</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/sp3.jpg" width="100%" height="50%">
+                    <p> "Year Together Calender Anniversary Cake" suggests a celebratory cake marking a milestone of togetherness, adorned with a calendar motif, ideal for commemorating a significant anniversary with a touch of personalization and sweetness.
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>1000</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+           <tr>
+             <td>3.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalchr">
+              Christmas Cake
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalchr">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Christmas Cake</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/sp4.jpg" width="100%" height="50%">
+                    <p> A Christmas cake is a rich, dense fruitcake traditionally made with dried fruits, nuts, and spices, often soaked in spirits like brandy. It's typically decorated with festive icing or marzipan and enjoyed during the holiday season.
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>1100</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+           <tr>
+             <td>4.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalred">
+              Red Velvet Birthday Cake
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalred">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Red Velvet Birthday Cake</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/sp1.jpg" width="100%" height="50%">
+                    <p> A Red Velvet Birthday Cake is a luscious, moist cake with a signature deep red hue, layered with rich cream cheese frosting. It's a festive and decadent treat perfect for celebrating special occasions.
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>1350</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+           <tr>
+             <td>5.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalpak">
+              Pakistan Independence Cake
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalpak">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Pakistan Independence Cake</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/sp8.jpg" width="100%" height="50%">
+                    <p> A Pakistan Independence Cake is a celebratory dessert decorated in the vibrant green and white colors of the Pakistani flag, often adorned with symbols like the crescent and star. It embodies national pride and is enjoyed on Pakistan's Independence Day, August 14th.
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>1000</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+           <tr>
+             <td>6.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalros">
+              Red Roses Anniversary Cake
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalros">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Red Roses Anniversary Cake</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/sp2.jpg" width="100%" height="50%">
+                    <p> Celebrate your special day with our exquisite Red Roses Anniversary Cake, adorned with delicate red roses and rich, velvety layers. Perfect for adding a touch of romance and elegance to your memorable occasion.
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>1200</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+           <tr>
+             <td>7.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalson">
+              Son's Birthday Cake
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalson">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Son's Birthday Cake</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/sp5.jpg" width="100%" height="50%">
+                    <p> Son's Birthday Cake adorned with vibrant rainbow sprinkles and a playful superhero theme, perfect for celebrating your son's special day. This cake promises both a visual treat and a delicious taste adventure for all party guests.
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>1100</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+           <tr>
+             <td>8.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalmoth">
+              Mother's Day Cake
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalmoth">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Mother's Day Cake</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/sp9.jpg" width="100%" height="50%">
+                    <p> Celebrate Mother's Day with a delightful cake, adorned with elegant decorations and a heartfelt message, perfect for showing your love and appreciation. This delicious treat combines moist layers and a rich frosting that every mom will adore.
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>1300</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+         </tbody>
+         </table>
+       </div>
+     </div>
+</div>
+<!--END SPECIAL CAKE-->
+<!-----------------------------MINI CAKE------------------------------->
+<br><br><br><br><br><br><br><br><br>
+<div class="container-fluid category-head text-center">
+  <h1 id="mini">  Mini Cake</h1>
+ </div>
+<div class="container text-center">
+   <div class="row cate-padding">
+       <div class="col-sm-8 col-xs-8 ">
+         <table class="table table-bordered table-striped table-hover">
+           <tbody>
+           <tr>
+             <th>Sr no.</th>
+             <th>Mini Cake Name</th>
+             <th>Price</th>
+             <th>Order Now</th>
+           </tr>
+           <tr>
+             <td>1.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalfud">
+              Fudgy Peanut Butter Mini Cake
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalfud">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Fudgy Peanut Butter Mini Cake</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/mc2.jpg" width="100%" height="50%">
+                    <p> Fudgy Peanut Butter Mini Cake is bursting with creamy layers and decadent chocolate. Perfectly sized for a single serving, this treat delivers a delightful blend of nutty sweetness and velvety texture.
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>800</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>             </td>
+           </tr>
+           <tr>
+             <td>2.</td>
+             <td><a  type="text"  data-bs-toggle="modal" data-bs-target="#myModalrum">
+              Rum Mini Cake
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalrum">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Rum Mini Cake</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/mc5.jpg" width="100%" height="50%">
+                    <p>A Rum Mini Cake is a delightful, bite-sized dessert infused with rich, aromatic rum, offering a moist and flavorful treat. Perfect for a quick indulgence or a sophisticated finish to any meal.
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>750</td>
+             <td><a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+             </td>
+           </tr>
+           <tr>
+             <td>3.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalpec">
+              Pecan Mini Cake
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalpec">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Pecan Mini Cake</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/mc7.jpg" width="100%" height="50%">
+                    <p>The Pecan Mini Cake is a delightful treat featuring a moist, buttery cake base loaded with crunchy pecans. Topped with a rich caramel glaze, it offers a perfect balance of sweetness and nuttiness in every bite.
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>700</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+           <tr>
+             <td>4.</td>
+             <td><a  type="text"  data-bs-toggle="modal" data-bs-target="#myModalcara">
+              Caramel Mini Cake
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalcara">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Caramel Mini Cake</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/mc4.jpg" width="100%" height="50%">
+                    <p>Caramel Mini Ckae has  layered with caramel buttercream. This is the perfect cake for any occasion. Our special caramel sauce is irresistibly creamy and the sponge is sweetened with condensed milk which makes it insanely moist. This cake will rock your world!
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>600</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+           <tr>
+             <td>5.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalamar">
+              Amaretto Mini Cake
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalamar">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Amaretto Mini Cake</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/mc8.jpg" width="100%" height="50%">
+                    <p> Amaretto Mini Cake – if you like almond flavor, this cake is for you! The cake is super moist and the Amaretto glaze really puts it over the top! Extremely easy to make with a box of cake mix, vanilla pudding mix, and Amaretto liqueur. Serve the cake with some whipped cream or vanilla ice cream. SO good!
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>850</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+           <tr>
+             <td>6.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalcher">
+              Cherry Cheese Mini Cake         </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalcher">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Cherry Cheese Mini Cake</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/mc1.jpg" width="100%" height="50%">
+                    <p> Mini Cherry Cheesecakes are the perfect size for parties and showers, and with just six ingredients, they come together in a snap!
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>950</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+           <tr>
+             <td>7.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalcit">
+              Citrus Mini Cake
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalcit">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Citrus Mini Cake</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/mc3.jpg" width="100%" height="50%">
+                    <p>Citrus Mini Cake has both lemon juice and orange juice in the batter and tons of zest so you're sure to get a blast of citrus in every bite. Add another punch of flavor with a simple glaze made with lemon, lime or orange juice. Top with your favorite candied fruit for a delightful dessert great for any occasion.
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>550</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+           <tr>
+             <td>8.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalmoch">
+              Mocha Mini Cake
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalmoch">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Mocha Mini Cake</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/mc6.jpg" width="100%" height="50%">
+                    <p>Mocha Mini Cake is made of classic chocolate cake ingredients that are elevated by flavor superstars like espresso powder, brewed coffee, and a decadent chocolate coffee frosting.
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>600</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+            </tbody>
+         </table>
+       </div>
+         <div class="col-sm-4 col-xs-4 ">
+            <img src="imgs/mini.jpg" class="img-thumbnail img-rounded  img-responsive">
+             </div>
+       </div>
+     </div>
+</div>
+<!--END MINI CAKE-->
+<!-----------------------------ULTRA PRO MAX CAKE------------------------------->
+<br><br><br><br><br><br><br><br><br>
+<div class="container-fluid category-head text-center">
+  <h1 id="ultra">  Ultra Pro Max Cake</h1>
+ </div>
+<div class="container text-center">
+   <div class="row cate-padding">
+       <div class="col-sm-4 col-xs-4 ">
+          <img src="imgs/ultra.jpg" class="img-thumbnail img-rounded  img-responsive">
+           </div>
+       <div class="col-sm-8 col-xs-8 ">
+         <table class="table table-bordered table-striped table-hover">
+           <tbody>
+           <tr>
+             <th>Sr no.</th>
+             <th>Ultra Pro Max Cake Name</th>
+             <th>Price</th>
+             <th>Order Now</th>
+           </tr>
+           <tr>
+             <td>1.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalben">
+              Ben 10 Cake
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalben">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Ben 10 Cake</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/u7.jpg" width="100%" height="50%">
+                    <p> Ben 10 Cake is a cream, sponge cake and raspberry filled cake with a gorgeous layer of almond flavored marzipan. One of the most gorgeous cakes you'll ever make!
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>2500</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+           <tr>
+             <td>2.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModaltedd">
+              Teddy Bear Cake
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModaltedd">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Teddy Bear Cake</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/u4.jpg" width="100%" height="50%">
+                    <p> Teddy Bear Cake is a cream, sponge cake and raspberry filled cake with a gorgeous layer of almond flavored marzipan. One of the most gorgeous cakes you'll ever make!
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>2700</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+           <tr>
+             <td>3.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModaltom">
+              Tom & Jerry Cake
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModaltom">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Tom & Jerry Cake</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/u6.jpg" width="100%" height="50%">
+                    <p> Tom & Jerry Cake is a cream, sponge cake and raspberry filled cake with a gorgeous layer of almond flavored marzipan. One of the most gorgeous cakes you'll ever make!
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>3000</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+           <tr>
+             <td>4.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalpanda">
+              Panda Cake
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalpanda">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Panda Cake</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/u5.jpg" width="100%" height="50%">
+                    <p> Panda Cake is a cream, sponge cake and raspberry filled cake with a gorgeous layer of almond flavored marzipan. One of the most gorgeous cakes you'll ever make!
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>2800</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>             </td>
+           </tr>
+           <tr>
+             <td>5.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalbar">
+              Barbie Cake
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalbar">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Barbie Cake</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/u8.jpg" width="100%" height="50%">
+                    <p>Barbie Cake is a cream, sponge cake and raspberry filled cake with a gorgeous layer of almond flavored marzipan. One of the most gorgeous cakes you'll ever make!
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>3500</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+           <tr>
+             <td>6.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalcar">
+              Car Cake
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalcar">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Car Cake</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/u3.jpg" width="100%" height="50%">
+                    <p>Car Cake is a cream, sponge cake and raspberry filled cake with a gorgeous layer of almond flavored marzipan. One of the most gorgeous cakes you'll ever make!
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>2950</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+           <tr>
+             <td>7.</td>
+             <td><a  type="text"  data-bs-toggle="modal" data-bs-target="#myModalstyl">
+              Style Queen Cake
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalstyl">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Style Queen Cake</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/u2.jpg" width="100%" height="50%">
+                    <p>Style Queen Cake is a cream, sponge cake and raspberry filled cake with a gorgeous layer of almond flavored marzipan. One of the most gorgeous cakes you'll ever make!
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>3800</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+           <tr>
+             <td>8.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalcin">
+              Cinderella Cake
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalcin">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Cinderella Cake</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/u1.jpg" width="100%" height="50%">
+                    <p>Cinderella Cake is a cream, sponge cake and raspberry filled cake with a gorgeous layer of almond flavored marzipan. One of the most gorgeous cakes you'll ever make!
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>4000</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+         </tbody>
+         </table>
+       </div>
+     </div>
+</div>
+<!--END ULTRA PRO MAX CAKE-->
+<!-----------------------------COOKIES CAKE------------------------------->
+<br><br><br><br><br><br><br><br><br>
+<div class="container-fluid category-head text-center">
+  <h1 id="cookies">  Cookies Cake</h1>
+ </div>
+<div class="container text-center">
+   
+     <div class="row cate-padding">
+       <div class="col-sm-8 col-xs-8 ">
+         <table class="table table-bordered table-striped table-hover">
+           <tbody>
+           <tr>
+             <th>Sr no.</th>
+             <th>Cookies Name</th>
+             <th>Price</th>
+             <th>Order Now</th>
+           </tr>
+           <tr>
+             <td>1.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalcho">
+              Chocolate Chip Cookies
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalcho">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Chocolate Chip Cookies</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/co1.jpg" width="100%" height="50%">
+                    <p>A chocolate chip cookie is a sweet baked treat that is recognized by its butter flavor and the inclusion of chocolate chips. Some variations can include nuts, oatmeal or raisins as well. They are tasty, easy to make, and can be a healthy snack. They can be enjoyed as a snack or dessert, and can be made with different kinds of chocolate chips to suit your taste.
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>300</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+           <tr>
+             <td>2.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalpeant">
+              Peanut Butter Cookies
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalpeant">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Peanut Butter Cookies</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/co2.jpg" width="100%" height="50%">
+                    <p> A peanut butter cookie is a flat, crunchy cookie made with peanut butter as the main ingredient. It is characterized by a strong peanut flavor, crumbly texture, and typical surface fork marks.
+
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>370</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+           <tr>
+             <td>3.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalice">
+              Icebox Cookies
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalice">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Icebox Cookies</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/co3.jpg" width="100%" height="50%">
+                    <p>   An icebox cake (also known as a chocolate ripple cake or log in Australia) is a dairy-based dessert made with cream, fruits, nuts, and wafers and set in the refrigerator.Its sooooooooo delicious.
+
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>400</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+           <tr>
+             <td>4.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalsand">
+              Sandwich Cookies
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalsand">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Sandwich Cookies</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/co6.jpg" width="100%" height="50%">
+                    <p>   A sandwich cookie, also known as a sandwich biscuit, is a type of cookie made from two thin cookies or medium cookies with a filling between them. Many types of fillings are used, such as cream, ganache, buttercream, chocolate, cream cheese, jam, peanut butter, lemon curd, or ice cream.
+
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>340</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+           <tr>
+             <td>5.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalthumb">
+              Thumbprint Cookies
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalthumb">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Thumbprint Cookies</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/co8.jpg" width="100%" height="50%">
+                    <p>   Thumbprint Cookies are made with a simple sugar cookie dough, rolled in sparkling sugar, and then indented and filled with your choice of jam!   These are an all-time favorite cookie recipe, and the filling options are absolutely endless!  
+
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>420</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div> 
+            </td>
+           </tr>
+           <tr>
+             <td>6.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModaldrop">
+              Drop Cookies
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModaldrop">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Drop Cookies</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/co4.jpg" width="100%" height="50%">
+                    <p>  A Drop cookie (American English) or biscuit (British English) is a baked snack or dessert that is typically small, flat, and sweet. It usually contains flour, sugar, egg, and some type of oil, fat, or butter. It may include other ingredients such as raisins, oats, chocolate chips, or nuts.
+
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>500</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+             </td>
+           </tr>
+           <tr>
+             <td>7.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalsprt">
+              Spritzgeback Cookies
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalsprt">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Spritzgeback Cookies</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/co7.jpg" width="100%" height="50%">
+                    <p>  Spritzgebäck (German: [ˈʃpʁɪt͡sɡəˌbɛk]), also called a spritz cookie in the United States, is a type biscuit or cookie of German and Alsatian-Mosellan origin made of a rich shortcrust pastry. When made correctly, the cookies are crisp, fragile, somewhat dry, and buttery.
+
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>550</td>
+             <td><button class="btn btn-info addToCartButton" data-item="Item 1">Add to Cart</button>
+              <div id="message">Item added to cart!</div>
+            </td>
+           </tr>
+           <tr>
+             <td>8.</td>
+             <td><a type="text"  data-bs-toggle="modal" data-bs-target="#myModalging">
+              Gingerbread Cookies
+          </a>
+        
+            <!-- The Modal -->
+            <div class="modal" id="myModalging">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title text-center">Gingerbread Cookies</h3>
+                    
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <img src="imgs/co5.jpg" width="100%" height="50%">
+                    <p class="text-center">   Gingerbread cookies are a cookie made with rich molasses and plenty of warm spices, like ginger, cinnamon, and cloves. The gingerbread cookies are often cut into the shape of a man (aka gingerbread men), but can also be cut into a variety of holiday-themed shapes.
+
+                    </p>
+                    <a href="ordernow.html" class="btn btn-info btn-sm ">Order Now</a>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div></td>
+             <td>530</td>
+             <td><button class="btn btn-info addToCartButton" data-item="item2">Add to Cart</button>
+              <div  id="message">item2 added to cart!</div>
+             </td>
+           </tr>
+            </tbody>
+         </table>
+       </div>
+         <div class="col-sm-4 col-xs-4 ">
+            <img src="imgs/cookies.jpg" class="img-thumbnail img-rounded  img-responsive">
+          </div>
+       </div>
+     </div>
+</div>
+<!--END COOKIES CAKE-->
+  <!------------------------------BOTTOM TO TOP----------------------------->
+  <footer class="container-fluid text-center">
+    <a href="categories.html" title="To Top">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+  </footer>
+  <!--END BOTTOM TO TOP-->
+  <!----------------------------FOOTER SECTION------------------------------>
+  <div class="container-fluid footer-bg">
+      <div class="container ">
+        <div class="col-sm-4 col-xs-4 box ">
+          <h2>C<sub>A</sub>K<sup>E</sup>   D<sub>R</sub>E<sup>A</sup>M</h2>
+          <ul class="footer-dv">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="categories.html">Categories</a>
+            </li>
+            <li>
+              <a href="aboutus.html">About Us</a>
+            </li>
+            <li>
+              <a href="contactus.html">Contact Us</a>
+            </li>
+          </ul>
+          </div>
+          <div class="col-sm-4 col-xs-4 box">
+              <h2>We Accept</h2>
+              <p>Use our online ordering system and use your credit card or paypal account with condence. Alternatively, pay upon delivery for products you order online.</p>
+                </div>
+          <div class="col-sm-4 col-xs-4 box">
+              <H2>Contact Us</H2>
+              <p>You can call (8:30 AM – 11:30 PM)</p>
+              <p>Phone: +923012334356</p>
+              <p>Email:cake@gmail.com </p>
+        </div>
+    </div>
+    <!-- END FOOTER SECTION-->
+    <!-------------------------------@Coppyright------------------------------>
+    <div class="container-fluid domain-bg">
+      <div class="container">
+        
+          <div class="col-sm-6 col-xs-6">
+              <p>copyright &copy;2024. Cake Dream | All Rights Reserved.</p>
+          </div>
+          <div class="col-sm-6 col-xs-6 text-right">
+              <p>Developed By : Asma Haider</p>
+          </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".addToCartButton").click(function(){
+            showMessage();
+        });
+
+        function showMessage() {
+            $("#message").fadeIn().delay(2000).fadeOut();
+        }
+    });
+</script>
+</body>
+</html>
+
+</body>
+</html>

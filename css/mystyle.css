@@ -1,0 +1,191 @@
+.head-bg{
+    background-color: #0dcaf0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+}
+.header-bg{
+    background-color: #0dcaf0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+}
+
+.header-bg p{
+    size: 14px;
+    font-weight: bold;
+    color: black;
+}
+.header-logo{
+    position: relative;
+    width: 100px;
+    min-height: fit-content;
+    left: 15px;
+    background-size: contain;
+    padding-top: 10px;
+}
+.glyphicon-earphone{
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+.glyphicon-shopping-cart{
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+.containter-padding{
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.navbar-brand p{
+    color:#0dcaf0;
+}
+.navbar-brand sub,sup{
+    color: rgb(249, 251, 252);
+    font-weight: 20px;
+
+}
+.corusoual-padding{
+    padding: 0px;
+    margin-top: -20px;
+}
+
+.cate-padding{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.cate-padding h2,p{
+    color: black;
+}
+
+.categories-bg{
+    background-color: #0dcaf0;
+    font-weight: bold;
+    color: black;
+}
+.infrm-bg{
+    background-color: #0dcaf0;
+    font-weight: bold;
+    color: black;
+}
+.cntnt-padding{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.cntnt-padding h2,p{
+    color: black;    
+}
+.box-para{
+    text-align: justify;
+}
+
+.footer-bg{
+    background-color: black;
+    padding-left: 0px;
+    
+}
+.footer-dv{
+    list-style-type: none ;
+    text-decoration: none;
+    line-height: 2em;
+    color: white;
+}
+.footer-dv a:hover{
+    list-style-type: none ;
+    text-decoration: none;
+}
+.footer-style p{
+    text-align: left;
+}
+.box h2{
+    color: #0dcaf0;
+}
+.box sub,sup{
+    color: white;
+}
+.box p{
+    color: white;
+}
+.domain-bg{
+    background-color: #0dcaf0;
+   padding-right: -20px; 
+}
+.domain-bg p{
+    padding-top: 7px;
+    
+    color: black;
+}
+/*----------------about us------------------*/
+.section-heading{
+    padding: 0px;
+    margin-top: -20px;
+}
+.section-padding{
+    padding-top: 90px;
+}
+.section-padding p{
+    color: black;
+
+}
+.section-padding h1{
+    font-size: 50px;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 90px;
+}
+/*---------------------contact us-------------*/
+.map-sec {
+    color:black;
+    font-size: 20px;
+}
+.glyphicon-shopping-cart{
+    color: black;
+    font-size: 18px;
+}
+.glyphicon-phone{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.glyphicon-envelope{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.map-padding{
+    padding-top: 60px;
+}
+/*----------------------categories-------------*/
+.category-head{
+    list-style-type: none ;
+    text-decoration: none;
+
+    color: black;
+}
+.cat-padding{
+    padding-top: 40px;
+}
+#message {
+    display: none;
+    margin-top: 5px;
+}
+/*----------------------Order Now--------------*/
+.titl-web{
+    color: rgb(3, 3, 3);
+    font-weight: 20px; 
+    padding-left:10px ;  
+}
+.titl-web h2{
+    color: rgb(3, 3, 3);
+    font-weight: 20px;   
+}
+.titl-web sup{
+    color: rgb(249, 251, 252);
+    font-weight: 20px;   
+}
+.titl-web sub{
+    color: rgb(249, 251, 252);
+    font-weight: 20px;   
+}
